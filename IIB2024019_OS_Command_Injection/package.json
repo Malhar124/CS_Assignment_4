@@ -1,0 +1,14 @@
+{
+  "name": "os-command-injection-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of OS Command Injection (In-band) and Parameterized Execution Defense on Windows",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "vulnerable": "node vulnerable_server.js",
+    "secure": "node secure_server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
