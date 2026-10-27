@@ -18,7 +18,7 @@ their own folder, named by roll number.
 | Malhar Udmale | IIB2024020 | SQL injection | Authentication bypass (Variant 1) | [`IIB2024020/`](IIB2024020/) |
 | Aviral Awasthi | IIB2024019 | OS command injection | In-band (command output returned) | [`IIB2024019_OS_Command_Injection/`](IIB2024019_OS_Command_Injection/) |
 | Gauri Joshi | IIB2024003 | Cross-Site Request Forgery (CSRF) | POST-based forged action (auto-submitting form) (Variant 2) | [`IIB2024003_CSRF/`](IIB2024003_CSRF/) |
-| _<name>_ | _<roll>_ | _<category>_ | _<variant>_ | _<folder>_ |
+| Abhilasha Sharma | IIB2024501 | XSS | Stored XSS | [`IIB2024501-XSS/`](IIB2024501-XSS/) |
 
 > Each member: add a folder named by your roll number, put your variant inside
 > it with its own README, and fill in your row above.
