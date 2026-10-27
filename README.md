@@ -17,7 +17,7 @@ their own folder, named by roll number.
 | Member name | Roll number | Category | Variant implemented | Folder |
 |-------------|-------------|----------|---------------------|--------|
 | Malhar Udmale | IIB2024020 | SQL injection | Authentication bypass (Variant 1) | [`IIB2024020/`](IIB2024020/) |
-| _<name>_ | _<roll>_ | _<category>_ | _<variant>_ | _<folder>_ |
+| Aviral Awasthi | IIB2024019 | OS command injection | In-band (command output returned) | [`IIB2024019/`](IIB2024019/) |
 | _<name>_ | _<roll>_ | _<category>_ | _<variant>_ | _<folder>_ |
 | _<name>_ | _<roll>_ | _<category>_ | _<variant>_ | _<folder>_ |
 
