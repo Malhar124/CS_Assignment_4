@@ -1,7 +1,7 @@
 # Web Server Security — Exploitation and Mitigation
 
-Group submission for **Cyber Security (IT-30001)**, Autumn Semester 2026,
-Department of Information Technology, IIIT Allahabad.
+Group submission for **Cyber Security Assignment 4**,
+IIIT Allahabad.
 Instructor: Dr. Soumyadev Maity.
 
 Each member implements **one variant** of a web server vulnerability category
@@ -9,9 +9,6 @@ Each member implements **one variant** of a web server vulnerability category
 working exploit, and one implemented mitigation. Every member's work lives in
 their own folder, named by roll number.
 
-All demos run on `127.0.0.1` only and exist purely for a controlled local
-demonstration for this assignment. Do not deploy them, and test only this
-group's own application.
 
 ---
 
