@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SQL Injection Demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 16px; line-height: 1.5; }
+    code { background: #f0f0f0; padding: 1px 5px; border-radius: 4px; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 16px 20px; margin: 16px 0; }
+    a { color: #0b61d1; }
+  </style>
+</head>
+<body>
+  <h1>SQL Injection Demo</h1>
+  <p>Local educational demo. SQL injection Variant 1 (Authentication bypass), with a vulnerable mode and a safe mode.</p>
+
+  <div class="card">
+    <h2>Variant 1: Authentication bypass</h2>
+    <p>Log in without a valid password.</p>
+    <p>Vulnerable: <a href="/login?mode=vuln">/login?mode=vuln</a></p>
+    <p>Safe: <a href="/login?mode=safe">/login?mode=safe</a></p>
+    <p>Payload: username <code>admin' --</code>, password anything.</p>
+  </div>
+</body>
+</html>
