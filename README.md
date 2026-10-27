@@ -42,12 +42,21 @@ their own folder, named by roll number.
 │   ├── fixed_app.py
 │   └── attacker.html
 └── IIB2024019_OS_Command_Injection/       Aviral Awasthi — OS Command Injection, Variant 1
-    ├── README.md                          Variant write-up (exploit + mitigation)
-    ├── REPORT_SECTION.md                  Report section for group PDF submission
-    ├── VIDEO_SCRIPT.md                    Script for video demonstration
-    ├── server.js                          Diagnostic server (Mode 1 & Mode 2)
-    ├── package.json
-    └── public/
+|   ├── README.md                          Variant write-up (exploit + mitigation)
+|   ├── REPORT_SECTION.md                  Report section for group PDF submission
+|   ├── VIDEO_SCRIPT.md                    Script for video demonstration
+|   ├── server.js                          Diagnostic server (Mode 1 & Mode 2)
+|   ├── package.json
+|   └── public/
+├── IIB2024501-XSS/                       Abhilasha Sharma — Stored XSS
+│   ├── public/
+│   │   ├── script.js
+│   │   └── style.css
+│   ├── views/
+│   │   └── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
 ```
 
 ## Running a member's demo
@@ -68,6 +77,14 @@ cd IIB2024019_OS_Command_Injection
 npm install
 npm start
 # open http://localhost:3000/
+```
+
+### Stored XSS (IIB2024501)
+```bash
+cd IIB2024501-XSS
+npm install
+npm start
+# Open http://localhost:3000/
 ```
 
 See each member's folder README for the exact exploit payload, the mitigation,
